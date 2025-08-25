@@ -1,0 +1,6 @@
+.chat { height: 60vh; overflow-y: auto; }
+.bubble { padding: 10px 12px; border-radius: 12px; margin-bottom: 10px; max-width: 90%; }
+.bubble.user { background: #e9f5ff; margin-left: auto; }
+.bubble.assistant { background: #f5f5f5; margin-right: auto; white-space: pre-wrap; }
+.bubble.tool { background: #fff3cd; border: 1px solid #ffeeba; font-family: monospace; }
+.small-muted { font-size: 12px; color: #666; }
